@@ -8,10 +8,9 @@ import Sequential from './sequential.jsx'
 import ScrollAnimation from './scrollanimation.jsx'
 import Title from './title.jsx'
 import Addition from './addition.jsx'
+import TextToSpeech from './texttospeech.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-   <Title/>
-   <App/>
-   <Addition/>
+   <ScrollAnimation/>
   </StrictMode>,
 )
